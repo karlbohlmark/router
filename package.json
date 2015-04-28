@@ -1,8 +1,34 @@
 {
-  "name": "router",
-  "private": true,
+  "name": "@karboh/router",
+  "version": "1.0.0",
+  "description": "A nice client-side router.",
+  "main": "server.js",
+  "directories": {
+    "example": "examples",
+    "test": "test"
+  },
   "dependencies": {
-    "express": "~3.3.4",
-    "hbs": "~2.3.0"
-  }
+    "component-event": "*",
+    "@karboh/link-delegate": "*",
+    "path-to-regexp": "*",
+    "querystring-component": "*",
+    "@karboh/url": "*",
+    "@karboh/history": "*",
+    "ware": "0.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ianstormtaylor/router.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ianstormtaylor/router/issues"
+  },
+  "homepage": "https://github.com/ianstormtaylor/router"
 }
