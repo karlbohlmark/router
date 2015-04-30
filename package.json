@@ -1,26 +1,26 @@
 {
   "name": "@karboh/router",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A nice client-side router.",
-  "main": "server.js",
+  "main": "lib/index.js",
   "directories": {
     "example": "examples",
     "test": "test"
   },
   "dependencies": {
+    "@karboh/history": "*",
+    "@karboh/indexof": "^1.0.0",
+    "@karboh/link-delegate": "0.0.2",
+    "@karboh/prevent": "^1.0.0",
+    "@karboh/stop": "^1.0.0",
+    "@karboh/url": "^0.2.0",
     "component-event": "*",
-    "@karboh/link-delegate": "*",
     "path-to-regexp": "*",
     "querystring-component": "*",
-    "@karboh/url": "*",
-    "@karboh/history": "*",
     "ware": "0.3.0"
   },
   "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "https://github.com/ianstormtaylor/router.git"
